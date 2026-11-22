@@ -1,6 +1,6 @@
 # droid-common — contexto del repositorio
 
-Código compartido por las cinco apps de Android (ver `README.md`). Nació el 13-nov-2026 al ver
+Código compartido por las apps de Android (ver `README.md`; desde el 22-nov-2026 las ocho, por el tema Material 3 Expressive de `ui/Expressive.kt`). Nació el 13-nov-2026 al ver
 que `ShazamSignature`, `SecureFile` y las piezas de modo escritorio estaban copiadas entre
 repositorios y ya empezaban a divergir.
 

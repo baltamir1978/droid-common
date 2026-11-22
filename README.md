@@ -1,13 +1,14 @@
 # droid-common
 
-Lo que comparten las apps de Android (TiempoDroid, CalefaccionDroid, RadioDroid, Letrasdroid y
-BirdDroid), para arreglarlo una vez y no cinco.
+Lo que comparten las apps de Android (TiempoDroid, CalefaccionDroid, RadioDroid, Letrasdroid,
+BirdDroid, GpsDroid, VideoDroid y FotoDroid), para arreglarlo una vez y no ocho.
 
 | Paquete | Qué | Quién lo usa |
 |---|---|---|
 | `es.altamirano.common.shazam` | `ShazamSignature`: la huella de audio que entiende Shazam, calculada en el móvil (traducida de shazamio 0.4, MIT) | RadioDroid, Letrasdroid |
 | `es.altamirano.common.secure` | `SecureFile`: un fichero cifrado con una clave del Android Keystore | CalefaccionDroid, TiempoDroid |
-| `es.altamirano.common.ui` | Modo escritorio: `READABLE_WIDTH`, `gutter`, `Readable`, `isWide`, `CenteredScroll`, `onSecondaryClick` | las cinco |
+| `es.altamirano.common.ui` | Modo escritorio: `READABLE_WIDTH`, `gutter`, `Readable`, `isWide`, `CenteredScroll`, `onSecondaryClick` | las cinco primeras y GpsDroid |
+| `es.altamirano.common.ui` (`Expressive.kt`) | Material 3 Expressive: `AppTheme`, `ExpressiveShapes`, `withBrandSelection` (lo seleccionado en un tono clarito de la marca), `glass`, `GlassNavigationBar`, `Header`, `TonalCard` | las ocho |
 
 ## Cómo se usa
 
